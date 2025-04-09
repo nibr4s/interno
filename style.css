@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+max-width: 1000px;
+margin: auto;
+}
+/* header */
+header{
+    background-color: #FFFFFF;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px 0 200px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+nav{
+width: 50%;
+}
+.navheader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo{
+    width: 200PX;
+}
+.white{
+    color: rgb(0, 0, 0);
+}
+/* header */
+.hero{
+    background-image: url(assets/Banner.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 0 200px;
+    padding-top: 200px;
+    padding-right: 600px;
+}
+h1{
+    font-size: 85px;
+}
+.div1{
+    width: 600px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 26px 31px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.margintop  {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.spacebetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px 0 200px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}  
+
+.flexend{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 200px 0 200px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.sub{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+}
+.img{
+    width: 200px;
+    height: 250px;
+    border-radius: 0px 50px 0px 50px;
+    margin-top: 20px;
+}
+
+/*Largeur */
+.width40{
+    width: 40%;
+}
+
+.gap20{
+    gap: 20px;
+}
+
+.justifycenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px 0 200px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.whiteclr
+{
+    background-color: #f4f4f4b6;
+}
