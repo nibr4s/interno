@@ -5,24 +5,24 @@
     text-decoration: none;
     list-style: none;
 }
-.container{
-max-width: 1000px;
-margin: auto;
-}
+
+
 /* header */
-header{
+header {
     background-color: #FFFFFF;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 200px 0 200px;
     margin-top: 20px;
     padding-bottom: 20px;
 }
-nav{
-width: 50%;
+
+nav {
+    width: 50%;
 }
-.navheader{
+
+.navheader {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -30,14 +30,29 @@ width: 50%;
     font-size: 20px;
     font-weight: bold;
 }
-.logo{
+
+.img1 {
+    width: 64px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 300px 0 100px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.logo {
     width: 200PX;
 }
-.white{
-    color: rgb(0, 0, 0);
+
+.white {
+    color: rgb(255, 255, 255);
 }
+
 /* header */
-.hero{
+.hero {
     background-image: url(assets/Banner.jpg);
     height: 100vh;
     background-repeat: no-repeat;
@@ -46,10 +61,25 @@ width: 50%;
     padding-top: 200px;
     padding-right: 600px;
 }
-h1{
+
+h1 {
     font-size: 85px;
+    font-family: "DM Serif Display", serif;
 }
-.div1{
+
+h3 {
+    font-size: 20px;
+    color: #000;
+    font-family: "DM Serif Display", serif;
+}
+h2 {
+    font-size: 50px;
+    color: #000;
+    font-weight: bold;
+    font-family: "DM Serif Display", serif;
+}	
+
+.div1 {
     width: 600px;
 }
 
@@ -67,27 +97,17 @@ h1{
 .btn:hover {
     background-color: #333;
 }
-
-.flex{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.margintop  {
+.margintop {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.spacebetween{
-    display: flex;
+.spacebetween {
+    
     justify-content: space-between;
-    align-items: center;
-    padding: 0 200px 0 200px;
-    margin-top: 20px;
-    padding-bottom: 20px;
-}  
+}
 
-.flexend{
+.flexend {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -95,14 +115,16 @@ h1{
     margin-top: 20px;
     padding-bottom: 20px;
 }
-.sub{
+
+.sub {
     font-size: 20px;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 20px;
     justify-content: flex-start;
 }
-.img{
+
+.img {
     width: 200px;
     height: 250px;
     border-radius: 0px 50px 0px 50px;
@@ -110,23 +132,76 @@ h1{
 }
 
 /*Largeur */
-.width40{
+.width40 {
     width: 40%;
 }
 
-.gap20{
+.gap20 {
     gap: 20px;
 }
 
-.justifycenter{
-    display: flex;
+.justifycenter {
+
     justify-content: center;
-    align-items: center;
-    padding: 0 200px 0 200px;
-    margin-top: 20px;
-    padding-bottom: 20px;
+
 }
-.whiteclr
-{
-    background-color: #f4f4f4b6;
+
+.whiteclr {
+    background-color: #9a9e879d;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+/* AVIS CLIENT */
+.card {
+    background-color: aqua;
+
+}
+
+.largeur30 {
+    width: 30%;
+}
+
+.width30 {
+    width: 30%;
+}
+
+.card>div {
+    width: 75%;
+}
+
+.card>img {
+    width: 15%;
+}
+
+.aligncenter {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.nomProfil {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+}
+
+.top100{
+    margin-top: 100px;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+.top40 {
+    margin-top: 20px;
+}
+.whitebackround {
+    background-color: #fff;
 }
